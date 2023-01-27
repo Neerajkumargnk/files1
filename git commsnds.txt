@@ -1,0 +1,214 @@
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Sign-Up-and-Login-Page (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Sign-Up-and-Login-Page (main)
+$ git push -u origin main
+remote: Permission to sagargoswami2001/Sign-Up-and-Login-Page.git denied to Neerajkumargnk.
+fatal: unable to access 'https://github.com/sagargoswami2001/Sign-Up-and-Login-Page.git/': The requested URL returned error: 403
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Sign-Up-and-Login-Page (main)
+$ ssh-keygen -t rsa -C
+ssh-keygen: option requires an argument -- C
+usage: ssh-keygen [-q] [-a rounds] [-b bits] [-C comment] [-f output_keyfile]
+                  [-m format] [-N new_passphrase] [-O option]
+                  [-t dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa]
+                  [-w provider] [-Z cipher]
+       ssh-keygen -p [-a rounds] [-f keyfile] [-m format] [-N new_passphrase]
+                   [-P old_passphrase] [-Z cipher]
+       ssh-keygen -i [-f input_keyfile] [-m key_format]
+       ssh-keygen -e [-f input_keyfile] [-m key_format]
+       ssh-keygen -y [-f input_keyfile]
+       ssh-keygen -c [-a rounds] [-C comment] [-f keyfile] [-P passphrase]
+       ssh-keygen -l [-v] [-E fingerprint_hash] [-f input_keyfile]
+       ssh-keygen -B [-f input_keyfile]
+       ssh-keygen -D pkcs11
+       ssh-keygen -F hostname [-lv] [-f known_hosts_file]
+       ssh-keygen -H [-f known_hosts_file]
+       ssh-keygen -K [-a rounds] [-w provider]
+       ssh-keygen -R hostname [-f known_hosts_file]
+       ssh-keygen -r hostname [-g] [-f input_keyfile]
+       ssh-keygen -M generate [-O option] output_file
+       ssh-keygen -M screen [-f input_file] [-O option] output_file
+       ssh-keygen -I certificate_identity -s ca_key [-hU] [-D pkcs11_provider]
+                  [-n principals] [-O option] [-V validity_interval]
+                  [-z serial_number] file ...
+       ssh-keygen -L [-f input_keyfile]
+       ssh-keygen -A [-a rounds] [-f prefix_path]
+       ssh-keygen -k -f krl_file [-u] [-s ca_public] [-z version_number]
+                  file ...
+       ssh-keygen -Q [-l] -f krl_file [file ...]
+       ssh-keygen -Y find-principals -s signature_file -f allowed_signers_file
+       ssh-keygen -Y match-principals -I signer_identity -f allowed_signers_file
+       ssh-keygen -Y check-novalidate -n namespace -s signature_file
+       ssh-keygen -Y sign -f key_file -n namespace file [-O option] ...
+       ssh-keygen -Y verify -f allowed_signers_file -I signer_identity
+                  -n namespace -s signature_file [-r krl_file] [-O option]
+'
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Sign-Up-and-Login-Page (main)
+$ ssh-keygen -t rsa -C "neerajkumargnk12@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/DELL/.ssh/id_rsa):
+Created directory '/c/Users/DELL/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/DELL/.ssh/id_rsa
+Your public key has been saved in /c/Users/DELL/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:FoTslxyc/2gzASF0aX/eltPP8y+0BicWAb8OGB7PUT4 neerajkumargnk12@gmail.com
+The key's randomart image is:
++---[RSA 3072]----+
+|     ooo++...    |
+|      o+B  +.    |
+|     . o+*. E.   |
+|      ..+B+.oo   |
+|       .S +*.o o |
+|       .  =o* B .|
+|         . +.* +.|
+|              +.o|
+|             . .*|
++----[SHA256]-----+
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Sign-Up-and-Login-Page (main)
+$ git push -u origin main
+remote: Permission to sagargoswami2001/Sign-Up-and-Login-Page.git denied to Neerajkumargnk.
+fatal: unable to access 'https://github.com/sagargoswami2001/Sign-Up-and-Login-Page.git/': The requested URL returned error: 403
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Sign-Up-and-Login-Page (main)
+$ ^C
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Sign-Up-and-Login-Page (main)
+$  git remote add origin https://github.com/Neerajkumargnk/Login-page-and-sign-up.git
+error: remote origin already exists.
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Sign-Up-and-Login-Page (main)
+$ git push -u origin main
+remote: Permission to sagargoswami2001/Sign-Up-and-Login-Page.git denied to Neerajkumargnk.
+fatal: unable to access 'https://github.com/sagargoswami2001/Sign-Up-and-Login-Page.git/': The requested URL returned error: 403
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+after commit push to files
+git remote add origin (link of repo)
+git remote
+git push -u origin master
+---------------------------------------------------------------------------------------------------------------------------------------
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Demo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    First.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        First1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Demo (master)
+$ git add .
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Demo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    First.txt -> First1.txt
+
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Demo (master)
+$ git commit -m "rename form firt.txt to first1.txt"
+[master 84d55f5] rename form firt.txt to first1.txt
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ rename First.txt => First1.txt (81%)
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Demo (master)
+$ git rm first1.txt
+fatal: pathspec 'first1.txt' did not match any files
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Demo (master)
+$ git rm First1.txt
+rm 'First1.txt'
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/Demo (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    First1.txt
+
+
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/git.practice (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        CW.txt
+        git commsnds.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/git.practice (master)
+$ git commit -m "initial commit"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        CW.txt
+        git commsnds.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/git.practice (master)
+$ git add .
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/git.practice (master)
+$ git commit -m "intial commit"
+[master ea5bd42] intial commit
+ 2 files changed, 156 insertions(+)
+ create mode 100644 CW.txt
+ create mode 100644 git commsnds.txt
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/git.practice (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/git.practice (master)
+$ git mv CW.txt classwork.txt
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/git.practice (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    CW.txt -> classwork.txt
+
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/git.practice (master)
+$ git commit -m "file renamed to classwork.txt"
+[master c98e5cb] file renamed to classwork.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename CW.txt => classwork.txt (100%)
+
+DELL@DESKTOP-RG6HM4D MINGW64 ~/Desktop/git.practice (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+
+
+
